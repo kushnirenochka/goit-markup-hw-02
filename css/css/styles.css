@@ -1,6 +1,8 @@
+:root{
+    --primary-color:  #E5E5E5;
+}
 body { font-family: 'Roboto'; 
     color: #212121;
-    background: #E5E5E5;
     }
 .header {background: #FFFFFF;;}
 .logo {
@@ -36,13 +38,14 @@ color:#212121;
 .main-message {background-color: #2F303A;}
 .main-message h1 {
     font-weight: 900;
+    font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.main-message.button {
+.main-message .button {
     background: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -54,6 +57,9 @@ color:#212121;
     align-items: center;
     cursor: pointer
     
+}
+.text {
+    background-color: var(--primary-color);
 }
 .text ul {list-style-type: none;}
 .text h4 {
@@ -68,6 +74,7 @@ color:#212121;
     line-height: 1.5rem;
     letter-spacing: 0.03em;
 }
+.pictures{background-color: var(--primary-color)}
 .pictures-index {list-style-type: none;}
 .pictures h2 {
     font-size: 36px;
@@ -99,6 +106,9 @@ color:#212121;
     letter-spacing: 0.03em;
 }
 /* CSS DO PORTFOLIO */
+.portfolio-buttons {
+    background-color: var(--primary-color)
+}
 .portfolio-buttons ul {list-style-type: none;}
 .button {
     font-family: inherit;
@@ -113,6 +123,9 @@ color:#212121;
 .button:hover {
     color: #FFFFFF;
     background-color: #2196F3;
+}
+.main-part{
+    background-color: var(--primary-color)
 }
 .main-part ul {list-style-type: none;}
 .main-part h3 {
