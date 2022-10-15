@@ -1,10 +1,10 @@
 :root{
-    --primary-color:  #E5E5E5;
+    --primary-color:  #FFFFFF;
 }
 body { font-family: 'Roboto'; 
     color: #212121;
     }
-.header {background: #FFFFFF;;}
+.header {background-color: var(--primary-color)}
 .logo {
 font-family: 'Raleway';
 font-weight: 700;
@@ -82,7 +82,7 @@ color:#212121;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.team {background: #F5F4FA;}
+.team {background-color: #F5F4FA;}
 .team ul {list-style-type: none;}
 .team h2 {
     font-size: 36px;
@@ -118,7 +118,8 @@ color:#212121;
     letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    color: #212121;
 }
 .button:hover {
     color: #FFFFFF;
